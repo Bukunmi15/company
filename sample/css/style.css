@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    height: 80px;
+    color: #fff;
+    background-color: #fff;
+}
+
+.top img{
+    width: 70px;
+    margin-left: 70px;
+}
+
+
+.bar{
+    font-family: sans-serif;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 170px;
+    
+}
+
+.bar a{
+    color:black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.background{
+    display: flex;
+    background: url(https://images.unsplash.com/photo-1493946947703-a0e68b050bee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTl8fHdlYnNpdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lead{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.lead h3{
+    font-size: 4rem;
+    padding-left: 190px;
+}
+
+
+.apply{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 190px;
+    margin-top: 20px;
+    background-color: #0092CC;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px 35px ;
+    border-radius: 10px;
+    border: none;
+    transition: 1s ease;
+}
+
+.apply:hover{
+    color: #fff;
+    background-color: #0B50DB;
+    cursor: pointer;
+}
+
+
+
+.template h4{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.card{
+    box-shadow: 5px 5px 5px 5px #F3F3F3 ;
+    min-height: -300px;
+}
+
+.years{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000442;
+}
+
+
+.years i{
+    font-size: 5rem;
+    color: #fff;
+}
+
+.years h3{
+    text-align: center;
+    color: #fff;
+}
+ 
+.years p{
+    color: #fff;
+    text-align: center;
+}
+
+.graduate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D8A600;
+}
+
+.graduate i{
+    font-size: 10rem;
+    color: #fff;
+}
+
+.graduate h3{
+    color: #fff;
+}
+
+.graduate p{
+    text-align: center;
+    color: #fff;
+}
+
+
+.world{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000442;
+}
+
+.world i{
+    font-size: 6rem;
+    color: #fff;
+}
+
+.world h3{
+    color: #fff;
+    text-align: center;
+}
+
+.world p{
+    color: #fff;
+}
+
+.push{
+    padding-top: 30px;
+}
+
+
+.display{
+    /* display: flex;
+    flex-direction: column; */
+    background: url(https://images.unsplash.com/photo-1493946947703-a0e68b050bee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTl8fHdlYnNpdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+
+.intro{
+    color: #fff;
+    font-weight: bold;
+}
+
+.intro span{
+    color: #2EA1ED;
+}
+
+.but{
+    border: 3px solid #fff;
+    margin-right: 450px;
+    /* padding-top: 20px ; */
+   
+}
+
+.but a{
+    text-decoration: none;
+    color: #fff;
+    padding-top: -420px;
+   padding-left: 20px ;
+   font-weight: bold;
+
+}
+
+.but a:hover{
+    color: #fff;
+}
+
+.study{
+
+}
+
+.study h2{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.study p{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-style: italic;
+    line-height: 30px;
+    font-weight: bold
+    ;
+}
+
+.study h6{
+    margin-left: 40px;
+    color: #7F92A6;
+}
+
+.study i{
+    font-size: 3rem;
+    /* margin-right: -50px; */
+    padding-right: -400px ;
+}
+
+.testimonial{
+   flex-direction: row;
+   margin-left: 250px;
+   margin-top: 50px;
+}
+
+.testimonial h3{
+    font-size: 3rem;
+    color: #001575;
+}
+
+.testimonial p{
+    color: #7F92A6;
+}
+
+
+.nft{
+    height: 300px;
+}
+
+.carousel{
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.carousel .card{
+    width: 50px;
+    height: 200px;
+    background-color: #FAFAFA;
+}
+
+.carousel-control-next-icon{
+    color: black;
+}
+
+.first {
+    display: flex;
+   
+
+}
+
+.first img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.name{
+    margin-left: 10px;
+}
+
+.name h6{
+    font-weight: bold;
+    color: #427FED;
+}
+
+.name p{
+    margin-top: -10px;
+    color: #9999B2;
+}
+
+.icon{
+    display: flex;
+    margin-left: -50px;
+}
+ 
+.icon i{
+    display: flex;
+    color: #E7711B;
+    letter-spacing: 5px;
+}
+
+.icon p{
+    display: flex;
+    font-size: 10px;
+    position: absolute;
+    margin-top: 20px;
+    color: #000;
+    font-weight: bold;
+    line-height: -10px
+}
+
+.second{
+    display: flex;
+
+}
+
+.second img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+.third{
+    display: flex;
+}
+
+.third img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+
+}
+
+.college{
+    display: flex;
+    margin-top: 30px;
+}
+
+.college img{
+    width: 50px;
+    height: 50px;
+}
