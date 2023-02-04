@@ -8,6 +8,7 @@
     height: 80px;
     color: #fff;
     background-color: #fff;
+    opacity: 0.9;
 }
 
 .top img{
@@ -21,7 +22,7 @@
     justify-content: flex-end;
     color: #fff;
     font-size: 15px;
-    margin-right: 170px;
+    margin-right: 150px;
     
 }
 
@@ -30,6 +31,34 @@
     font-size: 12px;
     font-weight: bold;
 }
+
+
+
+.login{
+    display: flex;
+    gap: 10px;
+    margin-left: 70px;
+    background-color: darkblue;
+    /* color: #fff; */
+    padding: 5px 20px;
+}
+
+.stick{
+    width: 1px;
+    height: 20px;
+    background-color: #fff;
+}
+
+.login a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.login a:hover{
+    color: #fff;
+}
+
+
 
 
 .background{
@@ -272,6 +301,7 @@
     width: 50px;
     height: 200px;
     background-color: #FAFAFA;
+    /* box-shadow: 20px 20px 20px 20px black; */
 }
 
 .carousel-control-next-icon{
@@ -354,6 +384,12 @@
 
 }
 
+
+.review{
+    margin-top: 50px;
+    /* margin-left: 100px; */
+}
+
 .college{
     display: flex;
     margin-top: 30px;
@@ -362,4 +398,274 @@
 .college img{
     width: 50px;
     height: 50px;
+    margin-top: 50px;
+ 
 }
+
+.abk{
+    margin-top: 50px;
+}
+
+.abk p{
+    color: #000;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.abk h6{
+    margin-left: 10px;
+    margin-top: -10px;
+    color: #9999B2;
+
+}
+
+.abk img{
+    width: 120px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+
+.rate i{
+    color: #E7711B;
+}
+.rate {
+    display: flex;
+    gap: 5px;
+    margin-top: -20px;
+    color: #E7711B;
+}
+
+
+.here{
+    margin-top: 10px;
+    margin-left: 10px;
+   
+}
+
+.here a{
+    background-color: blue;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    transition: 1s ease;
+}
+
+.here a:hover{
+    background-color: #1F67E7;
+    color: #fff;
+}
+
+
+.tour{
+    flex-direction: row;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.tour h3{
+    font-size: 3rem;
+    color: #001575;
+}
+
+.tour p{
+    color: #7F92A6;
+}
+
+
+.ready{
+    display: flex;
+    background: url(https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjZ8fGNvZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    /* opacity: 0.5;  */
+}
+
+.change{
+    text-align: center;
+}
+
+.change h3{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.change p{
+    color: #fff;
+    font-weight: bold;
+    padding-top: -780px;
+}
+
+
+.join a{
+    margin-top: -50px;
+    text-decoration: none;
+    background: #041A60;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 400px;
+    font-size: 2rem;
+    color: #4867AA;
+}
+
+.app{
+    position: fixed;
+    font-size: 2rem;
+    top: 350px;
+    color: #1DA1F2;
+}
+
+.job{
+    font-size: 2rem;
+    position: fixed;
+    top: 300px;
+    color: #0077B5;
+}
+
+
+
+
+.ford p{
+    font-weight: bold;
+}
+
+.ford a{
+    text-decoration: none;
+    color: rgb(250, 0, 4);
+}
+
+.ford a:hover{
+    color:  rgb(250, 0, 4);
+    cursor: pointer;
+}
+
+.quick h5{
+    font-weight: bold;
+}
+
+.quick a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #7F92A6;
+}
+
+.quick a:hover{
+    color: #7F92A6;
+    cursor: pointer;
+}
+
+.abeokuta h5{
+    font-weight: bold;
+}
+
+.abeokuta address{
+    color: #7F92A6;
+    cursor: pointer;
+}
+
+
+.abeokuta a{
+    text-decoration: none;
+    color: #666666;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.abeokuta a:hover{
+    color: #666666;
+}
+
+
+.lagos h5{
+    font-weight: bold;
+}
+
+.lagos address{
+    color: #7F92A6;
+    cursor: pointer;
+}
+
+.lagos a{
+    text-decoration: none;
+    color: #666666;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.lagos a:hover{
+    color: #666666;
+}
+
+.ibadan h5{
+    font-weight: bold;
+}
+
+.ibadan address{
+    color: #7F92A6;
+    cursor: pointer;
+}
+
+
+.ibadan a{
+    text-decoration: none;
+    color: #666666;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ibadan a:hover{
+    color: #666666;
+}
+
+
+.line{
+    width: 80%;
+    height: 80px;
+    border: 1px solid #7d7d7d;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.copyright{
+    display: flex;
+    float: right;
+    margin-top: -70px;
+    margin-right: 100px;
+}
+
+
+.social{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    padding-top: 40px;
+
+}
+
+.social a{
+    color: #666666;
+}
+
+
+.social a:hover{
+    color: #666666;
+}
+
