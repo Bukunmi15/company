@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #4071F4;
+
+        }
+
+
+        .box {
+            width: 400px;
+            height: 400px;
+            background-color: white;
+            margin: 50px auto;
+            border-radius: 12px;
+            border: none;
+            outline: none;
+            padding: 20px;
+        }
+
+
+
+        .box .content {
+            padding: 0 35px;
+            margin-bottom: 20px;
+        }
+
+
+        .content h4 {
+            font-size: 30px;
+            margin-bottom: 5px;
+            margin-left: -35px;
+            font-weight: bold;
+        }
+
+
+        .name i{
+            position: absolute;
+            margin-left: 10px;
+            margin-top: 5px;
+            color: #7F92A6;
+        }
+
+        .password i{
+            position: absolute;
+            margin-left: 10px;
+            margin-top: 5px;
+            color: #7F92A6;
+        }
+
+
+        .input .name input,
+        .input .password input {
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid #c1c1c1;
+            margin-bottom: 10px;
+        }
+
+
+
+
+        .input .name input::placeholder,
+        .input .password input::placeholder {
+            padding: 30px;
+        }
+
+
+
+        .link a {
+            text-decoration: none;
+            color: blue;
+
+        }
+
+        .link {
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 15px;
+        }
+
+
+        .link a {
+            display: flex;
+            justify-content: flex-end;
+            align-items: end;
+            text-align: end;
+            margin-right: 50px;
+        }
+
+
+
+        .btn2 button {
+            width: 100%;
+            padding: 10px;
+            background-color: #81070E;
+            color: #fff;
+            font-weight: bold;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+
+        .feature {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            margin-bottom: 20px;
+        }
+
+        .line {
+            width: 30px;
+            height: 1px;
+            background-color: #000;
+        }
+
+        .feature p {
+            margin-top: -10px;
+        }
+
+        .brand {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .brand a{
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .brand div {
+            border: 1px solid #c1c1c1;
+            padding: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .last {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="box">
+            <div class="content">
+                <h4>Login</h4>
+            </div>
+            <form action="">
+                <div class="input">
+                    <div class="name">
+                        <i class="bi bi-envelope"></i>
+                        <input type="email"  name="" id="" placeholder="Enter your email" />
+                    </div>
+                    <div class="password">
+                        <i class="bi bi-file-lock"></i>
+                        <input type="password" name="" id="" placeholder="Confirm a password" />
+                    </div>
+
+                    <div class="link">
+                        <input type="checkbox" name="remember" id="">Remember
+                        <a href="#">Having trouble in sign in?</a>
+                    </div>
+                    <div class="btn2">
+                        <button>Login Now</button>
+                    </div>
+                </div>
+            </form>
+
+            <div class="feature">
+                <div class="line"></div>
+                <p>Or Sign in with</p>
+                <div class="line"></div>
+            </div>
+
+            <div class="brand">
+                <div><a href="http/www.google.com">Google</a></div>
+                <div><a href="http/www.twitter.com">Twitter</a></div>
+                <div><a href="http/www.facebook.com">Facebook</a></div>
+            </div>
+
+            <div class="last">
+                <p>Don't have an account? <b>Request now</b></p>
+            </div>
+        </div>
+</body>
+
+</html>
